@@ -1,9 +1,7 @@
-console.log("Starting App.js");
-
-//  const fs = require ('fs');
+console.log("Starting Notes With Yargs.js");
  const notes = require ("./notes.js");
  const yargs = require ("yargs");
- const argv = yargs.argv;
+
 
  var title = yargs.argv.title;
  var body = yargs.argv.body;
